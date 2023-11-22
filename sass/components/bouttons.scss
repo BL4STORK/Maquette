@@ -1,10 +1,10 @@
 #boutons{
-    width: 900px;
     display: flex;
     text-align: start;
     justify-content: space-around;
     flex-direction: row;
-
+    width: 400px;
+    padding-left: 30px;
 }
 
 .border{

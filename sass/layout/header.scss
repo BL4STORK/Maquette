@@ -1,9 +1,30 @@
 header{
     display: flex;
     justify-content: space-between;
-    text-align: right;
-    gap: 10px;
     background-color: $colorPrimary;
     color: $colorSecondary;
     
 }
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: right;
+    gap: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+header i{
+    font-size:48px;
+    padding: 25px;
+    padding-left: 100px;
+}
+
+.titlecolor{
+    color: $colorPrimary;
+    font-weight: bold;
+}
+
+

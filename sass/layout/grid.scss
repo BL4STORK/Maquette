@@ -1,9 +1,14 @@
 main{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
+    
 }
 div{
     display: flex;
     flex-direction: column;
+}
+
+.Tailletexte{
+    font-size: 18px;
 }
