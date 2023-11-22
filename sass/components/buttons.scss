@@ -1,0 +1,13 @@
+#boutons{
+    width: 900px;
+    display: flex;
+    text-align: start;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.border{
+    border: 2px solid $colorPrimary;
+    font-size: 18px;
+}
